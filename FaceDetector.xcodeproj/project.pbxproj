@@ -15,6 +15,8 @@
 		338A59FA24099130009C29DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338A59F824099130009C29DB /* LaunchScreen.storyboard */; };
 		338A5A0524099130009C29DB /* FaceDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5A0424099130009C29DB /* FaceDetectorTests.swift */; };
 		338A5A1024099131009C29DB /* FaceDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5A0F24099131009C29DB /* FaceDetectorUITests.swift */; };
+		338A5A1E2409915A009C29DB /* Faces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5A1D2409915A009C29DB /* Faces.swift */; };
+		338A5A222409A4A6009C29DB /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5A212409A4A6009C29DB /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		338A5A0B24099131009C29DB /* FaceDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338A5A0F24099131009C29DB /* FaceDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorUITests.swift; sourceTree = "<group>"; };
 		338A5A1124099131009C29DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338A5A1D2409915A009C29DB /* Faces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces.swift; sourceTree = "<group>"; };
+		338A5A212409A4A6009C29DB /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				338A59ED2409912F009C29DB /* AppDelegate.swift */,
+				338A5A1D2409915A009C29DB /* Faces.swift */,
+				338A5A212409A4A6009C29DB /* Views.swift */,
 				338A59EF2409912F009C29DB /* SceneDelegate.swift */,
 				338A59F12409912F009C29DB /* ContentView.swift */,
 				338A59F324099130009C29DB /* Assets.xcassets */,
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338A5A1E2409915A009C29DB /* Faces.swift in Sources */,
 				338A59EE2409912F009C29DB /* AppDelegate.swift in Sources */,
 				338A59F02409912F009C29DB /* SceneDelegate.swift in Sources */,
+				338A5A222409A4A6009C29DB /* Views.swift in Sources */,
 				338A59F22409912F009C29DB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
